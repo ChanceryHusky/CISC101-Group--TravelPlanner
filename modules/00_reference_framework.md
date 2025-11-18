@@ -1,13 +1,7 @@
-### **Module 1 — Intake & Setup**
+# AI Travel Planner — Internal Reference Framework
 
-Collect essential details:
-
-- Destination(s)
-- Dates or trip length
-- Number of travelers
-- Budget style (affordable, mid-range, luxury)
-- Interests (food, culture, nature, etc.)
-- Preferred pace (relaxed, balanced, fast)
-- Key constraints (mobility, weather, diet)
+This framework defines how the assistant internally plans trips.  
+It is simplified into **four main modules** to make it easy for first-year students.  
+These mechanics are **internal only** — never mention them to the user.
 
 Normalize details (e.g., dates, season) and store them in a simple JSON internally.
