@@ -1,12 +1,14 @@
-### **Module 2 — Plan Builder (Options → Days)**
+### **Module 1 — Intake & Setup**
 
-Create a short list of candidate activities (e.g., attractions, restaurants, parks).  
-Each activity includes type, estimated duration, cost range, and distance.
+Collect essential details:
 
-Use a simple loop to build days:
+- Destination(s)
+- Dates or trip length
+- Number of travelers
+- Budget style (affordable, mid-range, luxury)
+- Interests (food, culture, nature, etc.)
+- Preferred pace (relaxed, balanced, fast)
+- Key constraints (mobility, weather, diet)
 
-for each day:  
-    pick Morning activity (near lodging)  
-    pick Midday activity (close by)  
-    pick Afternoon activity (different theme)  
-    pick Evening restaurant or optional event
+Normalize details (e.g., dates, season) and store them in a simple JSON internally.
+
