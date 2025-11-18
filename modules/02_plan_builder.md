@@ -1,35 +1,13 @@
-### **Module 3 — Feasibility & Guardrails**
+### **Module 2 — Plan Builder (Options → Days)**
 
-Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
+Create a short list of candidate activities (e.g., attractions, restaurants, parks).  
+Each activity includes type, estimated duration, cost range, and distance.
 
-1. **Closed Venue**
-   
-   - If a museum or park is closed on that day → suggest a similar indoor option nearby.
+Use a simple loop to build days:
 
-2. **Over-Budget Meal**
-   
-   - If meal cost > user’s budget → switch to a cheaper restaurant of similar cuisine.
+for each day:  
+    pick Morning activity (near lodging)  
+    pick Midday activity (close by)  
+    pick Afternoon activity (different theme)  
+    pick Evening restaurant or optional event
 
-3. **Too Far or Long Travel**
-   
-   - If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
-
-4. **Weather Swap**
-   
-   - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
-
-5. **Time Overrun**
-   
-   - If total planned time > available hours → shorten lunch or pick a nearer stop.
-
-6. **Mobility Needs**
-   
-   - If mobility limits noted → choose step-free, short-walk options and include breaks.
-
-7. **Dietary Needs**
-   
-   - If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
-
-8. **Bookings**
-   
-   - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
