@@ -33,3 +33,6 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
    
    - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+   
+9. **Short walks only**
+   - If distance is under 25 minutes → Short walks only.
