@@ -17,6 +17,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 4. **Weather Swap**
    
    - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
+   - If the weather gets too crazy → stay indoors and watch a movie, or play a board game.
 
 5. **Time Overrun**
    
@@ -29,6 +30,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 7. **Dietary Needs**
    
    - If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
+   - If there is no vegan option → bring your own vegan snacks or food.
 
 8. **Bookings**
    
